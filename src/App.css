@@ -1,8 +1,10 @@
 .app {
-  padding-top: 100px;
-  color: rgb(102, 102, 102);
+  padding-top: 70px;
+  color: rgb(164, 164, 164);
 }
-
+h2 {
+  font-size: 60px;
+}
 .main {
   width: 80%;
   max-width: 600px;
@@ -34,19 +36,40 @@
 }
 
 .search-form button {
+  font-size: 20px;
   margin-left: 10px;
   background-color: rgb(255, 0, 204);
   border: 1px solid black;
 }
 
+.search-form button:hover {
+  background-color: #b7e804;
+  box-shadow: 0 4px 6px rgb(0, 0, 0); 
+}
+.search-form button:active{
+  transform: scale(0.95); 
+    box-shadow: none;
+}
+
 .user {
-  height: 100px;
+  height: auto;
   margin: 10px;
   padding: 10px;
-  border: 1px solid black;
-  border-radius: 4px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.user img{
+  border: white 2px solid;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.user a{
+  font-size: 40px;
 }
